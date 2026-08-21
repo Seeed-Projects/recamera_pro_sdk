@@ -1,0 +1,11 @@
+# Installed by scripts/setup.sh from GitHub Release assets.
+/toolchain/
+/sysroot/
+
+# Obsolete local toolchain backup; never publish it.
+/toolchain-gcc9-backup/
+
+# Locally generated release archives and build output.
+/dist/
+/build/
+**/build/
